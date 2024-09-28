@@ -1,0 +1,4 @@
+echo -e ".venv\n.env" >> .gitignore
+# se utiliza para crear .git ignore con texto escrito
+
+pip install ucimlrepo
