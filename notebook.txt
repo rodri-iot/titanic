@@ -1,4 +1,11 @@
-echo -e ".venv\n.env" >> .gitignore
-# se utiliza para crear .git ignore con texto escrito
+# Se utiliza para crear el entorno virtual
+python -m venv .venv
+source .venv/bin/activate
 
+# se utiliza para crear .git ignore con texto escrito
+echo -e ".venv\n.env" >> .gitignore
+
+# Installations
+pip install ipykernel nbformat pandas seaborn plotly
 pip install ucimlrepo
+pip install scikit-learn
